@@ -1,0 +1,15 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --clr-icon : #000;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.style-scope {
+    width: 24px;
+    fill: var(--clr-icon);
+}
