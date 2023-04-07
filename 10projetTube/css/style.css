@@ -13,3 +13,66 @@ body {
     width: 24px;
     fill: var(--clr-icon);
 }
+/* header logo + menu  */
+.menu {
+    display: flex;
+    flex-direction: row;
+    padding-left: 15%;
+    
+}
+
+.menu img {
+    width: 60%;
+    padding-left: 8%;
+}
+
+/* btn selection */
+#menu_btn {
+  display: flex;
+  gap: 1em;
+  padding: 5%;
+}
+
+#menu_btn li {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: large;
+  padding: 10px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+  background-color: #333;
+}
+
+#nav_btn {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+@media (max-width: 435px) {
+  #menu_btn li.dispNone {
+    display: none;
+    
+  } #menu_box {
+    display: none;
+  }  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
